@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
          - name: server
-           image: charanbasetti/multi-server-pgfix
+           image: haranbasetti/multi-server-k8s-pgfix
            ports:
             - containerPort: 5000
            env:

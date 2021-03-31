@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
          - name: client
-           image: charanbasetti/multi-react
+           image: charanbasetti/multi-client-k8s
            ports:
             - containerPort: 3000
