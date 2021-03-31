@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
          - name: client
-           image: charanbasetti/multi-worker-pgfix
+           image: charanbasetti/multi-worker
            env:
              - name: REDIS_HOST
                value: redis-cluster-ip-service
